@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="pbelousovModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Dans">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FIO" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Datauch" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Adresuch" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Numberuch" Type="Double" Nullable="false" />
+    <Property Name="Numberrod" Type="Double" Nullable="false" />
+  </EntityType>
+  <EntityType Name="KlassId">
+    <Key>
+      <PropertyRef Name="Klassuch" />
+    </Key>
+    <Property Name="Klassuch" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Sveds" Relationship="Self.FK_Svedd_SveddClass" FromRole="KlassId" ToRole="Sveds" />
+    <Property Name="Id" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Sveds">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FIO" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Klassuch" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Ballyuch" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Uspevaemostuch" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Postzanuch" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="KlassId" Relationship="Self.FK_Svedd_SveddClass" FromRole="Sveds" ToRole="KlassId" />
+  </EntityType>
+  <Association Name="FK_Svedd_SveddClass">
+    <End Role="KlassId" Type="Self.KlassId" Multiplicity="1" />
+    <End Role="Sveds" Type="Self.Sveds" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KlassId">
+        <PropertyRef Name="Klassuch" />
+      </Principal>
+      <Dependent Role="Sveds">
+        <PropertyRef Name="Klassuch" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="pbelousovEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Dans" EntityType="Self.Dans" />
+    <EntitySet Name="KlassId" EntityType="Self.KlassId" />
+    <EntitySet Name="Sveds" EntityType="Self.Sveds" />
+    <AssociationSet Name="FK_Svedd_SveddClass" Association="Self.FK_Svedd_SveddClass">
+      <End Role="KlassId" EntitySet="KlassId" />
+      <End Role="Sveds" EntitySet="Sveds" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

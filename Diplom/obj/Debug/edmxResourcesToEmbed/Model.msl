@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище pbelousovModelContainer" CdmEntityContainer="pbelousovEntities7">
+    <EntitySetMapping Name="Dans">
+      <EntityTypeMapping TypeName="pbelousovModel.Dans">
+        <MappingFragment StoreEntitySet="Dans">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FIO" ColumnName="FIO" />
+          <ScalarProperty Name="Datauch" ColumnName="Datauch" />
+          <ScalarProperty Name="Adresuch" ColumnName="Adresuch" />
+          <ScalarProperty Name="Numberuch" ColumnName="Numberuch" />
+          <ScalarProperty Name="Numberrod" ColumnName="Numberrod" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KlassId">
+      <EntityTypeMapping TypeName="pbelousovModel.KlassId">
+        <MappingFragment StoreEntitySet="KlassId">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Klassuch" ColumnName="Klassuch" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sveds">
+      <EntityTypeMapping TypeName="pbelousovModel.Sveds">
+        <MappingFragment StoreEntitySet="Sveds">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FIO" ColumnName="FIO" />
+          <ScalarProperty Name="Klassuch" ColumnName="Klassuch" />
+          <ScalarProperty Name="Ballyuch" ColumnName="Ballyuch" />
+          <ScalarProperty Name="Uspevaemostuch" ColumnName="Uspevaemostuch" />
+          <ScalarProperty Name="Postzanuch" ColumnName="Postzanuch" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

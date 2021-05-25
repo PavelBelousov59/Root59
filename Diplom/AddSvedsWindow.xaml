@@ -1,0 +1,34 @@
+﻿<Window x:Class="Diplom.AddSvedsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Diplom"
+        mc:Ignorable="d"
+        Title="AddSvedsWindow" Height="450" Width="800">
+    
+    <Grid>
+        <StackPanel
+        Margin="10"
+        Orientation="Vertical">
+
+            <Label Content="ФИО ученика"/>
+            <TextBox Text="{Binding CurrentSved.FIO}"/>
+
+            <Label Content="Класс ученика"/>
+            <TextBox Text="{Binding CurrentSved.Klassuch}"/>
+
+            <Label Content="Средние баллы ученика"/>
+            <TextBox Text="{Binding CurrentSved.Ballyuch}"/>
+
+            <Label Content="Общая успеваемость ученика"/>
+            <TextBox Text="{Binding CurrentSved.Uspevaemostuch}"/>
+
+            <Label Content="Посещение занятий ученика за год"/>
+            <TextBox Text="{Binding CurrentSved.Postzanuch}"/>
+
+            <Button Content="Сохранить" Click="SaveButton_Click"/>
+
+        </StackPanel>
+    </Grid>
+</Window>

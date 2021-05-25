@@ -1,0 +1,52 @@
+C:\Users\User\source\repos\Diplom\obj\Debug\Diplom.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Diplom\obj\Debug\AddSvedsWindow.g.cs
+C:\Users\User\source\repos\Diplom\obj\Debug\MainWindow.g.cs
+C:\Users\User\source\repos\Diplom\obj\Debug\SvedsWindow.g.cs
+C:\Users\User\source\repos\Diplom\obj\Debug\App.g.cs
+C:\Users\User\source\repos\Diplom\obj\Debug\Diplom_Content.g.cs
+C:\Users\User\source\repos\Diplom\obj\Debug\Diplom_MarkupCompile.cache
+C:\Users\User\source\repos\Diplom\obj\Debug\Diplom_MarkupCompile.lref
+C:\Users\User\source\repos\Diplom\bin\Debug\Diplom.exe.config
+C:\Users\User\source\repos\Diplom\bin\Debug\Diplom.exe
+C:\Users\User\source\repos\Diplom\bin\Debug\Diplom.pdb
+C:\Users\User\source\repos\Diplom\bin\Debug\EntityFramework.dll
+C:\Users\User\source\repos\Diplom\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\source\repos\Diplom\bin\Debug\EntityFramework.xml
+C:\Users\User\source\repos\Diplom\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\source\repos\Diplom\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\User\source\repos\Diplom\obj\Debug\AddSvedsWindow.baml
+C:\Users\User\source\repos\Diplom\obj\Debug\MainWindow.baml
+C:\Users\User\source\repos\Diplom\obj\Debug\SvedsWindow.baml
+C:\Users\User\source\repos\Diplom\obj\Debug\Diplom.g.resources
+C:\Users\User\source\repos\Diplom\obj\Debug\Diplom.Properties.Resources.resources
+C:\Users\User\source\repos\Diplom\obj\Debug\Diplom.csproj.GenerateResource.cache
+C:\Users\User\source\repos\Diplom\obj\Debug\Diplom.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Diplom\obj\Debug\Diplom.csproj.CopyComplete
+C:\Users\User\source\repos\Diplom\obj\Debug\Diplom.exe
+C:\Users\User\source\repos\Diplom\obj\Debug\Diplom.pdb
+D:\Основное приложение\Diplom\bin\Debug\Diplom.exe.config
+D:\Основное приложение\Diplom\bin\Debug\Diplom.exe
+D:\Основное приложение\Diplom\bin\Debug\Diplom.pdb
+D:\Основное приложение\Diplom\bin\Debug\EntityFramework.dll
+D:\Основное приложение\Diplom\bin\Debug\EntityFramework.SqlServer.dll
+D:\Основное приложение\Diplom\bin\Debug\EntityFramework.xml
+D:\Основное приложение\Diplom\bin\Debug\EntityFramework.SqlServer.xml
+D:\Основное приложение\Diplom\bin\Debug\ru\EntityFramework.resources.dll
+D:\Основное приложение\Diplom\obj\Debug\Diplom.csprojAssemblyReference.cache
+D:\Основное приложение\Diplom\obj\Debug\AddSvedsWindow.g.cs
+D:\Основное приложение\Diplom\obj\Debug\MainWindow.g.cs
+D:\Основное приложение\Diplom\obj\Debug\SvedsWindow.g.cs
+D:\Основное приложение\Diplom\obj\Debug\App.g.cs
+D:\Основное приложение\Diplom\obj\Debug\Diplom_Content.g.cs
+D:\Основное приложение\Diplom\obj\Debug\Diplom_MarkupCompile.cache
+D:\Основное приложение\Diplom\obj\Debug\Diplom_MarkupCompile.lref
+D:\Основное приложение\Diplom\obj\Debug\AddSvedsWindow.baml
+D:\Основное приложение\Diplom\obj\Debug\MainWindow.baml
+D:\Основное приложение\Diplom\obj\Debug\SvedsWindow.baml
+D:\Основное приложение\Diplom\obj\Debug\Diplom.g.resources
+D:\Основное приложение\Diplom\obj\Debug\Diplom.Properties.Resources.resources
+D:\Основное приложение\Diplom\obj\Debug\Diplom.csproj.GenerateResource.cache
+D:\Основное приложение\Diplom\obj\Debug\Diplom.csproj.CoreCompileInputs.cache
+D:\Основное приложение\Diplom\obj\Debug\Diplom.csproj.CopyComplete
+D:\Основное приложение\Diplom\obj\Debug\Diplom.exe
+D:\Основное приложение\Diplom\obj\Debug\Diplom.pdb

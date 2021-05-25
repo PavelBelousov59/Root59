@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище pbelousovModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Dans">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FIO" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="Datauch" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="Adresuch" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="Numberuch" Type="float" Nullable="false" />
+    <Property Name="Numberrod" Type="float" Nullable="false" />
+  </EntityType>
+  <EntityType Name="KlassId">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Klassuch" Type="nvarchar" MaxLength="255" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Sveds">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FIO" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="Klassuch" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="Ballyuch" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="Uspevaemostuch" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="Postzanuch" Type="nvarchar" MaxLength="255" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="Хранилище pbelousovModelContainer">
+    <EntitySet Name="Dans" EntityType="Self.Dans" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="KlassId" EntityType="Self.KlassId" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Sveds" EntityType="Self.Sveds" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
